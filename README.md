@@ -2,8 +2,6 @@
 
 This is a content-based movie recommendation system built with Python, pandas, scikit-learn, and Streamlit. It suggests movies based on plot keywords, genres, cast, and crew information using TF-IDF and cosine similarity.
 
-<img src="background.jpg" alt="App Background" width="100%" />
-
 ---
 
 ## 🚀 Demo
