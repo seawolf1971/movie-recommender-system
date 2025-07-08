@@ -6,7 +6,12 @@ This is a content-based movie recommendation system built with Python, pandas, s
 
 ## 🚀 Demo
 
-To see a visual demo, you can run the Streamlit app locally or deploy it using platforms like Streamlit Cloud.
+You can test the app instantly via the hosted version on Streamlit Cloud:
+
+👉 [**Try the Movie Recommender App**](https://movie-recommender-webapp.streamlit.app/)
+
+To see a visual demo, you can also run the Streamlit app locally or deploy it using platforms like Streamlit Cloud.
+
 
 ---
 
@@ -58,29 +63,6 @@ Or manually:
 ```bash
 pip install pandas numpy scikit-learn streamlit requests
 ```
-
----
-
-## 🧠 Generate `movie_data.pkl` (Important)
-
-The file `movie_data.pkl` is **not included in the repository** due to GitHub's 100MB file size limit.
-
-To generate it manually:
-
-1. Open the notebook:
-
-```bash
-jupyter notebook movie-recommendation.ipynb
-```
-
-2. Run all the cells.  
-   This will create a file named:
-
-```
-movie_data.pkl
-```
-
-3. Make sure it is placed in the **same directory** as `app.py`.
 
 ---
 
