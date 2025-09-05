@@ -49,7 +49,7 @@ def get_recommendations(title, cosine_sim=cosine_sim):
 
 # Fetch poster with API    
 def fetch_poster(movie_id):
-    api_key = '1c66050d9ea495d7f5068c2bdac49e61' # Change this API with your API key if you want to use this app
+    api_key = 'YOUR_API_KEY' # Change this API with your API key if you want to use this app
     url = f'https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}'
     response = requests.get(url)
     data = response.json()
